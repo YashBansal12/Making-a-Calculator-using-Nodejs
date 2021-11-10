@@ -1,0 +1,24 @@
+{
+  "name": "Calculator",
+  "version": "1.0.0",
+  "description": "",
+  "main": "operations.js",
+  "scripts": {
+    "jsdoc": "jsdoc -c jsdoc.json",
+    "test": "jest --coverage",
+    "lint": "eslint src/."
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://git-codecommit.us-east-1.amazonaws.com/v1/repos/Sandbox-3"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^7.32.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-plugin-import": "^2.25.2",
+    "jest": "^27.3.1",
+    "jsdoc": "^3.6.7"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "plugins": ["plugins/markdown"],
+  "source": {
+    "include": ["src"],
+    "includePattern": ".js$",
+    "excludePattern": "(node_modules/|docs)"
+  },
+  "templates": {
+    "cleverLinks": true,
+    "monospaceLinks": true,
+    "default": {
+      "outputSourceFiles": false
+    }
+  },
+  "opts": {
+    "destination": "./jsdoc",
+    "recurse": true,
+    "readme": "./readme.md"
+  }
+}
